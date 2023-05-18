@@ -1,0 +1,145 @@
+
+  .swiper-slide img {
+    object-fit: cover;
+    height: 440px;
+    width: 1600px;
+  }
+  
+  .section-title {
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 34px;
+  }
+  
+  .section-text {
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 16px;
+  }
+  
+  .cta-button {
+    margin-top: 20px;
+    background-color: blue;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .content-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+
+  
+  .text-container {
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 34px;
+    text-align: center;
+
+  }
+  
+  .section-title {
+    font-size: 34px;
+    margin-bottom: 10px;
+  }
+  
+  .section-text {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+
+  
+  .swiper-slide img {
+    object-fit: cover;
+    height: 440px;
+    width: 1600px;
+  }
+  
+/* Contact button style */
+.contact-button {
+  height: 40px;
+  width: 120px;
+  background-color: #337AB7;
+  color: #FFFFFF;
+  font-family: "Open Sans";
+  font-size: 11px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 40px;
+  text-align: center;
+  border: none; /* Remove default button border */
+  cursor: pointer; /* Change cursor on hover */
+  margin-top: 20px; /* Add some space above the button */
+  display: block; /* Allow the button to respect margin and alignment properties */
+  margin-left: auto; /* Horizontally aligns the button to the center */
+  margin-right: auto;
+}
+
+/* Removing underline from Link */
+.contact-button-link {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  .swiper-slide img {
+    height: 220px;
+    width: 800px;
+  }
+
+  .section-title, .text-container {
+    font-size: 18px;
+  }
+
+  .section-text {
+    font-size: 12px;
+  }
+
+  .cta-button, .contact-button {
+    padding: 5px 10px;
+    font-size: 9px;
+    height: 30px;
+    width: 90px;
+  }
+
+  .content-container {
+    padding: 10px;
+  }
+}
+
+/* Styles for even smaller screens */
+@media screen and (max-width: 480px) {
+  .swiper-slide img {
+    height: 110px;
+    width: 400px;
+  }
+
+  .section-title, .text-container {
+    font-size: 16px;
+  }
+
+  .section-text {
+    font-size: 10px;
+  }
+
+  .cta-button, .contact-button {
+    padding: 5px 10px;
+    font-size: 8px;
+    height: 20px;
+    width: 80px;
+  }
+
+  .content-container {
+    padding: 5px;
+  }
+}
+
+
+  
+
+  

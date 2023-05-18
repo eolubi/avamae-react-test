@@ -1,0 +1,26 @@
+.footer {
+    border-top: 1px solid #E5E5E5;
+    background-color: #ffffff;
+    height: 60px;
+    /* Add any additional styling for the footer container */
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+    color: #9E9FA4;
+    font-family: "Open Sans";
+    font-size: 11px;
+    letter-spacing: 0;
+    
+  }
+
+  @media screen and (max-width: 768px) {
+    .footer-content {
+      justify-content: center;
+    }
+  }
+  
+ 

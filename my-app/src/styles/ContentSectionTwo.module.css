@@ -1,0 +1,92 @@
+/* This is the total Content Section */
+.content-section-two {
+  height: 430px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* This is the content container */
+.content-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1000px; /* Adjust based on your layout */
+  padding: 0 20px; /* Adjust based on your layout */
+}
+
+/* The text-container and image-container styles */
+.text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 310px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* The text content style */
+.text-container .text-content {
+  width: 487px;
+  color: #353535;
+  font-family: "Open Sans";
+  font-size: 10px; /* Reduced font size */
+  letter-spacing: 0;
+  line-height: 10px; /* Reduced line height */
+  flex-grow: 1; /* Allow the text content to fill available space */
+  overflow: hidden; /* if the text is too long */
+}
+
+/* The button style */
+.text-container .learn-more-button {
+  color: #FFFFFF;
+  font-family: "Open Sans";
+  font-size: 11px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 40px;
+  text-align: center;
+  height: 40px;
+  width: 120px;
+  background-color: #337AB7;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px; /* Adjust as needed to give some space above the button */
+}
+
+/* The image style */
+.image-container .chairs-image {
+  height: 310px;
+  width: 510px;
+}
+
+/* Media Query for devices less than 768px */
+@media screen and (max-width: 768px) {
+  /* Make layout vertical instead of horizontal */
+  .content-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .text-container .text-content {
+    width: auto; /* Adjust to the container size */
+    font-size: 8px; /* Adjust the font size */
+  }
+
+  .image-container .chairs-image {
+    height: auto; /* Adjust to the container size */
+    max-width: 100%; /* This will ensure the image doesn't overflow */
+  }
+}
+
+/* Media Query for devices less than 480px */
+@media screen and (max-width: 480px) {
+  .text-container .text-content {
+    font-size: 6px; /* Further reduce the font size */
+  }
+}

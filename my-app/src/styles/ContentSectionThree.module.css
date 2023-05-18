@@ -1,0 +1,94 @@
+/* This is the total Content Section */
+.content-section-three {
+  height: 430px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* The background image style */
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.background-image .image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* The content container style */
+.content-container {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+  
+}
+
+/* The box container style */
+.box-container {
+  position: relative;
+  height: 305px;
+  width: 510px;
+  background-color: rgba(0, 0, 0, 0.5); /* black with 0.5 opacity */
+  color: #FFFFFF;
+  font-family: "Open Sans";
+  letter-spacing: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px; /* added padding for text within the box */
+  margin-left: 150px; /* added margin to move the box to the right */
+}
+
+
+/* The box title style */
+.box-title {
+  margin-bottom: 20px; /* adjust as needed */
+}
+
+/* The login button style */
+.login-button {
+  height: 40px;
+  width: 120px;
+  background-color: #EEF7FF;
+  color: #337AB7;
+  font-family: "Open Sans";
+  font-weight: bold;
+  letter-spacing: 0;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  align-self: flex-start; /* align the button to the start of the box */
+  margin-top: 20px; /* adjust as needed */
+}
+
+/* Media Query for devices less than 768px */
+@media screen and (max-width: 768px) {
+  .box-container {
+    width: auto; /* Adjust to the container size */
+    margin-left: 20px; /* Reduce margin */
+  }
+}
+
+/* Media Query for devices less than 480px */
+@media screen and (max-width: 480px) {
+  .content-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .box-container {
+    margin-left: 0; /* Remove left margin */
+  }
+
+  .login-button {
+    align-self: center; /* align the button to the center */
+  }
+}

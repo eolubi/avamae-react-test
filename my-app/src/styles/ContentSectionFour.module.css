@@ -1,0 +1,82 @@
+.content-section-four {
+  background-color: #ffffff;
+  padding: 40px;
+  text-align: center;
+  color: #353535;
+  font-family: "Open Sans";
+}
+
+.section-title {
+  font-size: 24px;
+  font-weight: bold;
+  
+}
+
+.section-text {
+  
+  margin-bottom: 20px;
+}
+
+.columns-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: 0 0 30%;
+  max-width: 30%;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+/* .contact-button {
+  margin-top: 20px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+} */
+
+/* Contact button style */
+.contact-button {
+  height: 40px;
+  width: 120px;
+  background-color: #337AB7;
+  color: #FFFFFF;
+  font-family: "Open Sans";
+  font-size: 11px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 40px;
+  text-align: center;
+  border: none; /* Remove default button border */
+  cursor: pointer; /* Change cursor on hover */
+  margin-top: 20px; /* Add some space above the button */
+  display: block; /* Allow the button to respect margin and alignment properties */
+  margin-left: auto; /* Horizontally aligns the button to the center */
+  margin-right: auto;
+}
+
+/* Removing underline from Link */
+.contact-button-link {
+  text-decoration: none;
+}
+
+
+/* Media Query for devices less than 768px */
+@media screen and (max-width: 768px) {
+  .column {
+    flex: 0 0 50%; /* Columns take half of the space */
+    max-width: 50%;
+  }
+}
+
+/* Media Query for devices less than 480px */
+@media screen and (max-width: 480px) {
+  .column {
+    flex: 0 0 100%; /* Columns take the full width */
+    max-width: 100%;
+  }
+}

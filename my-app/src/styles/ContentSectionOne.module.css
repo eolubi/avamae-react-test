@@ -1,0 +1,42 @@
+.content-section-one {
+  background-color: #f8f8f8;
+  position: relative;
+  z-index: 1;
+
+}
+
+.content-container {
+  display: flex;
+  align-items: center;
+}
+
+.text-container {
+  height: 75px;
+  width: 387px;
+  color: #ffffff; 
+  font-family: "Open Sans";
+  font-size: 34px;
+  letter-spacing: 0;
+  line-height: 40px;
+}
+
+.section-title {
+  
+  font-weight: bold;
+  color: #000;
+}
+
+.section-text {
+  margin-top: 10px;
+  color: #000;
+  font-size: 20px;
+}
+
+.cta-button {
+  margin-top: 20px;
+  background-color: blue;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
